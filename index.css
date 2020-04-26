@@ -1,0 +1,117 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+#logo{
+
+display: block;
+
+}
+#logo2{
+
+display: none;
+}
+
+
+
+
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+[class*="status"]
+{
+
+	width: 150px;
+}
+.nav-item{
+	border-radius: 20px;
+}
+
+li{
+	display: inline;
+	margin-right: 40px;
+}
+
+#surfing{
+	width: 1530px;
+	margin-right:  -10px;
+	margin-left:   -10px;
+	margin-bottom: 20px;
+}
+
+.abc{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	min-width: 350px;
+	height: auto;
+
+	
+}
+
+#signup{
+	display: none;
+}
+a{
+	text-decoration-color:  none;
+}
+#otp{
+	display: none;
+}
+
+/*
+input:focus {
+    outline: none;
+}
+
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 40px;
+  border: 0;
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 250px;
+  min-width: 250px;
+}
+*/
+
+
+#divOuter{
+
+	align-self: center;
+ 
+overflow:hidden;
+}
+
+@media screen and (max-width: 760px){
+
+#abx{
+  display: none;
+}
+
+
+#logo{
+
+display: none;
+
+}
+#logo2{
+
+display: block;
+}
+
+
+
+}
